@@ -1,16 +1,15 @@
 """
+    Python Script to get data logs
     Made by Michael Ah-Kiow on 2019-12-30
-    
-    python scriptname -h for help. 
-    
-    Python Script that does 2 things:
-    1. Parse incoming Data (Format is in #BESTPOS NovAtel Ascii) 
-       https://docs.novatel.com/oem7/Content/Logs/BESTPOS.htm
-    2. Take user input and decide what kind of plot is needed. 
-    
-    Comments:
-    Heatmap is a bit slow, might need some rework
-    
+    Note that This is a simple algorithm with no regards to memory management
+    or efficiency. I do not have a background if computer science.
+    I'm sure there are better ways of doing this
+
+    The algorithm simply
+    1.finds all possible substring in given inputStream
+    2. Check if each substring is Palindromic, and if it is, it saves the
+    largest.
+
 """
 
 "Importing Libraries"
