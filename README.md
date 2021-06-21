@@ -1,2 +1,2 @@
 # GNSS-Plot
- Loads in a Novatel gps solution and plots tracjectory (KML & HTML).
+ Loads in a csv, novatel (bestpos) format solution and plots tracjectory (KML & HTML) using GNSS positions.
